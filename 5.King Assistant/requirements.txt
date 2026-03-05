@@ -1,5 +1,0 @@
-# Voice packages (optional - without these, works in text mode)
-pyttsx3
-SpeechRecognition
-
-# No API keys needed - Wikipedia access is free!

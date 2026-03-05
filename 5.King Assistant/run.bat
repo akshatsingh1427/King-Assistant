@@ -1,6 +1,0 @@
-@echo off
-echo Installing requirements...
-pip install -q pyttsx3 SpeechRecognition
-echo Starting King Assistant...
-python king_assistant.py
-pause
