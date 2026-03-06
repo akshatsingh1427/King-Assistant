@@ -214,7 +214,7 @@ class KingAssistant:
         """Handle human-like conversations"""
         cmd = command.lower()
         
-        # Greetings
+      
         if any(word in cmd for word in ['hello', 'hi', 'hey', 'hlo', 'helo']):
             responses = [
                 f"Hello {self.user_name}! How can I help you today?",
