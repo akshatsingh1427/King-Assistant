@@ -224,7 +224,7 @@ class KingAssistant:
             ]
             return random.choice(responses)
         
-        # How are you
+    
         elif any(phrase in cmd for phrase in ['how are you', 'how r u', 'how do you do']):
             responses = [
                 "I'm doing great, thanks for asking! Ready to help you learn something new.",
@@ -234,7 +234,7 @@ class KingAssistant:
             ]
             return random.choice(responses)
         
-        # What are you doing
+
         elif any(phrase in cmd for phrase in ['what are you doing', 'what r u doing', 'whats up']):
             responses = [
                 "I'm here, ready to answer your questions about any topic on Wikipedia!",
@@ -244,7 +244,7 @@ class KingAssistant:
             ]
             return random.choice(responses)
         
-        # Thanks
+
         elif any(word in cmd for word in ['thank', 'thanks', 'thank you']):
             responses = [
                 "You're welcome! Happy to help!",
@@ -391,3 +391,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
