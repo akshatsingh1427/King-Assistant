@@ -254,7 +254,7 @@ class KingAssistant:
             ]
             return random.choice(responses)
         
-        # Goodbye
+     
         elif any(word in cmd for word in ['bye', 'goodbye', 'see you', 'exit', 'quit']):
             self.running = False
             responses = [
@@ -264,7 +264,7 @@ class KingAssistant:
             ]
             return random.choice(responses)
         
-        # How old are you / About me
+
         elif any(phrase in cmd for phrase in ['how old are you', 'your age', 'who made you']):
             responses = [
                 "I'm an AI assistant created to help people learn from Wikipedia! I'm always learning new things.",
@@ -272,8 +272,7 @@ class KingAssistant:
                 "I was created to be your knowledge companion. I'm here whenever you need information!"
             ]
             return random.choice(responses)
-        
-        # What can you do
+
         elif any(phrase in cmd for phrase in ['what can you do', 'your capabilities', 'help']):
             return self.show_help()
         
@@ -391,4 +390,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
