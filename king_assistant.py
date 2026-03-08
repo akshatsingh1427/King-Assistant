@@ -276,7 +276,6 @@ class KingAssistant:
         elif any(phrase in cmd for phrase in ['what can you do', 'your capabilities', 'help']):
             return self.show_help()
         
-        # Time
         elif any(phrase in cmd for phrase in ['time', 'what time']):
             return f"The current time is {datetime.now().strftime('%I:%M %p')}"
         
@@ -390,5 +389,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
