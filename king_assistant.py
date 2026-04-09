@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 KING ASSISTANT - HUMAN-LIKE CHAT + WIKIPEDIA KNOWLEDGE
-Responds to greetings AND gives factual answers
 """
 
 import os
